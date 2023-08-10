@@ -20,4 +20,38 @@ PC em HD: 1024px até 1920px
         width: 80vw;
         
     }
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-size: 150px;
+    }
+    section#login > div#form {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1024px){
+    body {
+        background: rgb(147, 145, 145) url(../Imagens/pexels-matheus-cenali-2733918.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    section#login {
+        width: 800px;
+        
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-size: 150px;
+    }
+    section#login > div#form {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    
 }
