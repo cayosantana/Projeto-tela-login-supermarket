@@ -18,18 +18,22 @@ PC em HD: 1024px até 1920px
     }
     section#login {
         width: 80vw;
+        height: 270px;
         
     }
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 50%;
         height: 100%;
         background-size: 150px;
     }
     section#login > div#form {
         float: right;
-        width: 70%;
+        width: 50%;
         height: 100%;
+    }
+    section#login > div#form > h1 {
+        padding-top: 8px;
     }
 }
 @media screen and (min-width: 1024px){
@@ -40,7 +44,7 @@ PC em HD: 1024px até 1920px
     }
     section#login {
         width: 800px;
-        
+        height: 270px;  
     }
     section#login > div#imagem {
         float: right;
@@ -53,5 +57,7 @@ PC em HD: 1024px até 1920px
         width: 50%;
         height: 100%;
     }
-    
+    section#login > div#form > h1 {
+        padding-top: 8px;
+    }  
 }
